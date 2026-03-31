@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  DreamLog
 //
-//  Created by Роман Главацкий on 30.03.2026.
-//
+
 
 import UIKit
 

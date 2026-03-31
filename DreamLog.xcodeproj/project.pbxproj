@@ -3,33 +3,103 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		746AD2BA2F7C01700076A047 /* DreamDecor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD27D2F7C01700076A047 /* DreamDecor.swift */; };
+		746AD2BB2F7C01700076A047 /* DreamPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD27E2F7C01700076A047 /* DreamPalette.swift */; };
+		746AD2BC2F7C01700076A047 /* AppExternalURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2802F7C01700076A047 /* AppExternalURL.swift */; };
+		746AD2BD2F7C01700076A047 /* DreamFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2812F7C01700076A047 /* DreamFormatting.swift */; };
+		746AD2BE2F7C01700076A047 /* MoonPhaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2822F7C01700076A047 /* MoonPhaseHelper.swift */; };
+		746AD2BF2F7C01700076A047 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2832F7C01700076A047 /* UserDefaultsKeys.swift */; };
+		746AD2C02F7C01700076A047 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2862F7C01700076A047 /* Dream.swift */; };
+		746AD2C12F7C01700076A047 /* DreamEmotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2872F7C01700076A047 /* DreamEmotion.swift */; };
+		746AD2C22F7C01700076A047 /* DreamInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2882F7C01700076A047 /* DreamInsight.swift */; };
+		746AD2C32F7C01700076A047 /* DreamIntensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2892F7C01700076A047 /* DreamIntensity.swift */; };
+		746AD2C42F7C01700076A047 /* DreamPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD28A2F7C01700076A047 /* DreamPattern.swift */; };
+		746AD2C52F7C01700076A047 /* DreamSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD28B2F7C01700076A047 /* DreamSymbol.swift */; };
+		746AD2C62F7C01700076A047 /* DreamType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD28C2F7C01700076A047 /* DreamType.swift */; };
+		746AD2C72F7C01700076A047 /* DreamLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD28E2F7C01700076A047 /* DreamLogViewModel.swift */; };
+		746AD2C82F7C01700076A047 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2902F7C01700076A047 /* CalendarView.swift */; };
+		746AD2C92F7C01700076A047 /* CompactDreamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2922F7C01700076A047 /* CompactDreamRow.swift */; };
+		746AD2CA2F7C01700076A047 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2932F7C01700076A047 /* DayCell.swift */; };
+		746AD2CB2F7C01700076A047 /* DreamCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2942F7C01700076A047 /* DreamCard.swift */; };
+		746AD2CC2F7C01700076A047 /* LunarPhaseGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2952F7C01700076A047 /* LunarPhaseGlyph.swift */; };
+		746AD2CD2F7C01700076A047 /* PatternCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2962F7C01700076A047 /* PatternCard.swift */; };
+		746AD2CE2F7C01700076A047 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2972F7C01700076A047 /* StatCard.swift */; };
+		746AD2CF2F7C01700076A047 /* SymbolCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2982F7C01700076A047 /* SymbolCard.swift */; };
+		746AD2D02F7C01700076A047 /* AddDreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD29A2F7C01700076A047 /* AddDreamView.swift */; };
+		746AD2D12F7C01700076A047 /* DreamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD29B2F7C01700076A047 /* DreamDetailView.swift */; };
+		746AD2D22F7C01700076A047 /* EditDreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD29C2F7C01700076A047 /* EditDreamView.swift */; };
+		746AD2D32F7C01700076A047 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD29E2F7C01700076A047 /* HomeView.swift */; };
+		746AD2D42F7C01700076A047 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2A02F7C01700076A047 /* OnboardingView.swift */; };
+		746AD2D52F7C01700076A047 /* PatternsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2A22F7C01700076A047 /* PatternsView.swift */; };
+		746AD2D62F7C01700076A047 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2A42F7C01700076A047 /* SettingsView.swift */; };
+		746AD2D72F7C01700076A047 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2A62F7C01700076A047 /* StatsView.swift */; };
+		746AD2D82F7C01700076A047 /* AddSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2A82F7C01700076A047 /* AddSymbolView.swift */; };
+		746AD2D92F7C01700076A047 /* EditSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2A92F7C01700076A047 /* EditSymbolView.swift */; };
+		746AD2DA2F7C01700076A047 /* SymbolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2AA2F7C01700076A047 /* SymbolDetailView.swift */; };
+		746AD2DB2F7C01700076A047 /* SymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2AB2F7C01700076A047 /* SymbolsView.swift */; };
+		746AD2DC2F7C01700076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2AD2F7C01700076A047 /* ContentView.swift */; };
+		746AD2DD2F7C01700076A047 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2AE2F7C01700076A047 /* RootView.swift */; };
+		746AD2DE2F7C01700076A047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2B02F7C01700076A047 /* AppDelegate.swift */; };
+		746AD2DF2F7C01700076A047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2B72F7C01700076A047 /* SceneDelegate.swift */; };
+		746AD2E02F7C01700076A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD2B82F7C01700076A047 /* ViewController.swift */; };
+		746AD2E12F7C01700076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746AD2B12F7C01700076A047 /* Assets.xcassets */; };
+		746AD2E32F7C01700076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746AD2B42F7C01700076A047 /* LaunchScreen.storyboard */; };
+		746AD2E42F7C01700076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746AD2B62F7C01700076A047 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		72622000768E11AAEC27D538 /* Pods-DreamLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamLog.debug.xcconfig"; path = "Target Support Files/Pods-DreamLog/Pods-DreamLog.debug.xcconfig"; sourceTree = "<group>"; };
 		744B28262F7B0A6200F2A8EB /* DreamLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746AD27D2F7C01700076A047 /* DreamDecor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamDecor.swift; sourceTree = "<group>"; };
+		746AD27E2F7C01700076A047 /* DreamPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamPalette.swift; sourceTree = "<group>"; };
+		746AD2802F7C01700076A047 /* AppExternalURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalURL.swift; sourceTree = "<group>"; };
+		746AD2812F7C01700076A047 /* DreamFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamFormatting.swift; sourceTree = "<group>"; };
+		746AD2822F7C01700076A047 /* MoonPhaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonPhaseHelper.swift; sourceTree = "<group>"; };
+		746AD2832F7C01700076A047 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		746AD2862F7C01700076A047 /* Dream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = "<group>"; };
+		746AD2872F7C01700076A047 /* DreamEmotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamEmotion.swift; sourceTree = "<group>"; };
+		746AD2882F7C01700076A047 /* DreamInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamInsight.swift; sourceTree = "<group>"; };
+		746AD2892F7C01700076A047 /* DreamIntensity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamIntensity.swift; sourceTree = "<group>"; };
+		746AD28A2F7C01700076A047 /* DreamPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamPattern.swift; sourceTree = "<group>"; };
+		746AD28B2F7C01700076A047 /* DreamSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamSymbol.swift; sourceTree = "<group>"; };
+		746AD28C2F7C01700076A047 /* DreamType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamType.swift; sourceTree = "<group>"; };
+		746AD28E2F7C01700076A047 /* DreamLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamLogViewModel.swift; sourceTree = "<group>"; };
+		746AD2902F7C01700076A047 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		746AD2922F7C01700076A047 /* CompactDreamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactDreamRow.swift; sourceTree = "<group>"; };
+		746AD2932F7C01700076A047 /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		746AD2942F7C01700076A047 /* DreamCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamCard.swift; sourceTree = "<group>"; };
+		746AD2952F7C01700076A047 /* LunarPhaseGlyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarPhaseGlyph.swift; sourceTree = "<group>"; };
+		746AD2962F7C01700076A047 /* PatternCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternCard.swift; sourceTree = "<group>"; };
+		746AD2972F7C01700076A047 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		746AD2982F7C01700076A047 /* SymbolCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolCard.swift; sourceTree = "<group>"; };
+		746AD29A2F7C01700076A047 /* AddDreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDreamView.swift; sourceTree = "<group>"; };
+		746AD29B2F7C01700076A047 /* DreamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamDetailView.swift; sourceTree = "<group>"; };
+		746AD29C2F7C01700076A047 /* EditDreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDreamView.swift; sourceTree = "<group>"; };
+		746AD29E2F7C01700076A047 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		746AD2A02F7C01700076A047 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		746AD2A22F7C01700076A047 /* PatternsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsView.swift; sourceTree = "<group>"; };
+		746AD2A42F7C01700076A047 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		746AD2A62F7C01700076A047 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		746AD2A82F7C01700076A047 /* AddSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSymbolView.swift; sourceTree = "<group>"; };
+		746AD2A92F7C01700076A047 /* EditSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSymbolView.swift; sourceTree = "<group>"; };
+		746AD2AA2F7C01700076A047 /* SymbolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDetailView.swift; sourceTree = "<group>"; };
+		746AD2AB2F7C01700076A047 /* SymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsView.swift; sourceTree = "<group>"; };
+		746AD2AD2F7C01700076A047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		746AD2AE2F7C01700076A047 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		746AD2B02F7C01700076A047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		746AD2B12F7C01700076A047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746AD2B22F7C01700076A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746AD2B32F7C01700076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746AD2B52F7C01700076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746AD2B72F7C01700076A047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		746AD2B82F7C01700076A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B32526EE9FBB337A2505FE3 /* Pods-DreamLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamLog.release.xcconfig"; path = "Target Support Files/Pods-DreamLog/Pods-DreamLog.release.xcconfig"; sourceTree = "<group>"; };
+		B88F110D1D4B612EE838917E /* Pods_DreamLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		744B28382F7B0A6400F2A8EB /* Exceptions for "DreamLog" folder in "DreamLog" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 744B28252F7B0A6200F2A8EB /* DreamLog */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		744B28282F7B0A6200F2A8EB /* DreamLog */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				744B28382F7B0A6400F2A8EB /* Exceptions for "DreamLog" folder in "DreamLog" target */,
-			);
-			path = DreamLog;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		744B28232F7B0A6200F2A8EB /* Frameworks */ = {
@@ -42,11 +112,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06AEAE8158364286A61E32E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72622000768E11AAEC27D538 /* Pods-DreamLog.debug.xcconfig */,
+				9B32526EE9FBB337A2505FE3 /* Pods-DreamLog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		40E5713CA31407F977E20B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B88F110D1D4B612EE838917E /* Pods_DreamLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		744B281D2F7B0A6200F2A8EB = {
 			isa = PBXGroup;
 			children = (
-				744B28282F7B0A6200F2A8EB /* DreamLog */,
+				746AD2B92F7C01700076A047 /* DreamLog */,
 				744B28272F7B0A6200F2A8EB /* Products */,
+				06AEAE8158364286A61E32E4 /* Pods */,
+				40E5713CA31407F977E20B43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +147,176 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		746AD27F2F7C01700076A047 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				746AD27D2F7C01700076A047 /* DreamDecor.swift */,
+				746AD27E2F7C01700076A047 /* DreamPalette.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		746AD2842F7C01700076A047 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2802F7C01700076A047 /* AppExternalURL.swift */,
+				746AD2812F7C01700076A047 /* DreamFormatting.swift */,
+				746AD2822F7C01700076A047 /* MoonPhaseHelper.swift */,
+				746AD2832F7C01700076A047 /* UserDefaultsKeys.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		746AD2852F7C01700076A047 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				746AD27F2F7C01700076A047 /* Theme */,
+				746AD2842F7C01700076A047 /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		746AD28D2F7C01700076A047 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2862F7C01700076A047 /* Dream.swift */,
+				746AD2872F7C01700076A047 /* DreamEmotion.swift */,
+				746AD2882F7C01700076A047 /* DreamInsight.swift */,
+				746AD2892F7C01700076A047 /* DreamIntensity.swift */,
+				746AD28A2F7C01700076A047 /* DreamPattern.swift */,
+				746AD28B2F7C01700076A047 /* DreamSymbol.swift */,
+				746AD28C2F7C01700076A047 /* DreamType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		746AD28F2F7C01700076A047 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				746AD28E2F7C01700076A047 /* DreamLogViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		746AD2912F7C01700076A047 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2902F7C01700076A047 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		746AD2992F7C01700076A047 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2922F7C01700076A047 /* CompactDreamRow.swift */,
+				746AD2932F7C01700076A047 /* DayCell.swift */,
+				746AD2942F7C01700076A047 /* DreamCard.swift */,
+				746AD2952F7C01700076A047 /* LunarPhaseGlyph.swift */,
+				746AD2962F7C01700076A047 /* PatternCard.swift */,
+				746AD2972F7C01700076A047 /* StatCard.swift */,
+				746AD2982F7C01700076A047 /* SymbolCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		746AD29D2F7C01700076A047 /* Dream */ = {
+			isa = PBXGroup;
+			children = (
+				746AD29A2F7C01700076A047 /* AddDreamView.swift */,
+				746AD29B2F7C01700076A047 /* DreamDetailView.swift */,
+				746AD29C2F7C01700076A047 /* EditDreamView.swift */,
+			);
+			path = Dream;
+			sourceTree = "<group>";
+		};
+		746AD29F2F7C01700076A047 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				746AD29E2F7C01700076A047 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		746AD2A12F7C01700076A047 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2A02F7C01700076A047 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		746AD2A32F7C01700076A047 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2A22F7C01700076A047 /* PatternsView.swift */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		746AD2A52F7C01700076A047 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2A42F7C01700076A047 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		746AD2A72F7C01700076A047 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2A62F7C01700076A047 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		746AD2AC2F7C01700076A047 /* Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2A82F7C01700076A047 /* AddSymbolView.swift */,
+				746AD2A92F7C01700076A047 /* EditSymbolView.swift */,
+				746AD2AA2F7C01700076A047 /* SymbolDetailView.swift */,
+				746AD2AB2F7C01700076A047 /* SymbolsView.swift */,
+			);
+			path = Symbols;
+			sourceTree = "<group>";
+		};
+		746AD2AF2F7C01700076A047 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2912F7C01700076A047 /* Calendar */,
+				746AD2992F7C01700076A047 /* Components */,
+				746AD29D2F7C01700076A047 /* Dream */,
+				746AD29F2F7C01700076A047 /* Home */,
+				746AD2A12F7C01700076A047 /* Onboarding */,
+				746AD2A32F7C01700076A047 /* Patterns */,
+				746AD2A52F7C01700076A047 /* Settings */,
+				746AD2A72F7C01700076A047 /* Stats */,
+				746AD2AC2F7C01700076A047 /* Symbols */,
+				746AD2AD2F7C01700076A047 /* ContentView.swift */,
+				746AD2AE2F7C01700076A047 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		746AD2B92F7C01700076A047 /* DreamLog */ = {
+			isa = PBXGroup;
+			children = (
+				746AD2852F7C01700076A047 /* Core */,
+				746AD28D2F7C01700076A047 /* Models */,
+				746AD28F2F7C01700076A047 /* ViewModels */,
+				746AD2AF2F7C01700076A047 /* Views */,
+				746AD2B02F7C01700076A047 /* AppDelegate.swift */,
+				746AD2B12F7C01700076A047 /* Assets.xcassets */,
+				746AD2B22F7C01700076A047 /* Info.plist */,
+				746AD2B42F7C01700076A047 /* LaunchScreen.storyboard */,
+				746AD2B62F7C01700076A047 /* Main.storyboard */,
+				746AD2B72F7C01700076A047 /* SceneDelegate.swift */,
+				746AD2B82F7C01700076A047 /* ViewController.swift */,
+			);
+			path = DreamLog;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 744B28392F7B0A6400F2A8EB /* Build configuration list for PBXNativeTarget "DreamLog" */;
 			buildPhases = (
+				E1C741A6FFCEF0A5C053AB7A /* [CP] Check Pods Manifest.lock */,
 				744B28222F7B0A6200F2A8EB /* Sources */,
 				744B28232F7B0A6200F2A8EB /* Frameworks */,
 				744B28242F7B0A6200F2A8EB /* Resources */,
@@ -73,12 +333,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				744B28282F7B0A6200F2A8EB /* DreamLog */,
-			);
 			name = DreamLog;
-			packageProductDependencies = (
-			);
 			productName = DreamLog;
 			productReference = 744B28262F7B0A6200F2A8EB /* DreamLog.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +354,7 @@
 				};
 			};
 			buildConfigurationList = 744B28212F7B0A6200F2A8EB /* Build configuration list for PBXProject "DreamLog" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +362,6 @@
 				Base,
 			);
 			mainGroup = 744B281D2F7B0A6200F2A8EB;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 744B28272F7B0A6200F2A8EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +376,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746AD2E12F7C01700076A047 /* Assets.xcassets in Resources */,
+				746AD2E32F7C01700076A047 /* LaunchScreen.storyboard in Resources */,
+				746AD2E42F7C01700076A047 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1C741A6FFCEF0A5C053AB7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		744B28222F7B0A6200F2A8EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746AD2BA2F7C01700076A047 /* DreamDecor.swift in Sources */,
+				746AD2BB2F7C01700076A047 /* DreamPalette.swift in Sources */,
+				746AD2BC2F7C01700076A047 /* AppExternalURL.swift in Sources */,
+				746AD2BD2F7C01700076A047 /* DreamFormatting.swift in Sources */,
+				746AD2BE2F7C01700076A047 /* MoonPhaseHelper.swift in Sources */,
+				746AD2BF2F7C01700076A047 /* UserDefaultsKeys.swift in Sources */,
+				746AD2C02F7C01700076A047 /* Dream.swift in Sources */,
+				746AD2C12F7C01700076A047 /* DreamEmotion.swift in Sources */,
+				746AD2C22F7C01700076A047 /* DreamInsight.swift in Sources */,
+				746AD2C32F7C01700076A047 /* DreamIntensity.swift in Sources */,
+				746AD2C42F7C01700076A047 /* DreamPattern.swift in Sources */,
+				746AD2C52F7C01700076A047 /* DreamSymbol.swift in Sources */,
+				746AD2C62F7C01700076A047 /* DreamType.swift in Sources */,
+				746AD2C72F7C01700076A047 /* DreamLogViewModel.swift in Sources */,
+				746AD2C82F7C01700076A047 /* CalendarView.swift in Sources */,
+				746AD2C92F7C01700076A047 /* CompactDreamRow.swift in Sources */,
+				746AD2CA2F7C01700076A047 /* DayCell.swift in Sources */,
+				746AD2CB2F7C01700076A047 /* DreamCard.swift in Sources */,
+				746AD2CC2F7C01700076A047 /* LunarPhaseGlyph.swift in Sources */,
+				746AD2CD2F7C01700076A047 /* PatternCard.swift in Sources */,
+				746AD2CE2F7C01700076A047 /* StatCard.swift in Sources */,
+				746AD2CF2F7C01700076A047 /* SymbolCard.swift in Sources */,
+				746AD2D02F7C01700076A047 /* AddDreamView.swift in Sources */,
+				746AD2D12F7C01700076A047 /* DreamDetailView.swift in Sources */,
+				746AD2D22F7C01700076A047 /* EditDreamView.swift in Sources */,
+				746AD2D32F7C01700076A047 /* HomeView.swift in Sources */,
+				746AD2D42F7C01700076A047 /* OnboardingView.swift in Sources */,
+				746AD2D52F7C01700076A047 /* PatternsView.swift in Sources */,
+				746AD2D62F7C01700076A047 /* SettingsView.swift in Sources */,
+				746AD2D72F7C01700076A047 /* StatsView.swift in Sources */,
+				746AD2D82F7C01700076A047 /* AddSymbolView.swift in Sources */,
+				746AD2D92F7C01700076A047 /* EditSymbolView.swift in Sources */,
+				746AD2DA2F7C01700076A047 /* SymbolDetailView.swift in Sources */,
+				746AD2DB2F7C01700076A047 /* SymbolsView.swift in Sources */,
+				746AD2DC2F7C01700076A047 /* ContentView.swift in Sources */,
+				746AD2DD2F7C01700076A047 /* RootView.swift in Sources */,
+				746AD2DE2F7C01700076A047 /* AppDelegate.swift in Sources */,
+				746AD2DF2F7C01700076A047 /* SceneDelegate.swift in Sources */,
+				746AD2E02F7C01700076A047 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		746AD2B42F7C01700076A047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746AD2B32F7C01700076A047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		746AD2B62F7C01700076A047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746AD2B52F7C01700076A047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		744B283A2F7B0A6400F2A8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72622000768E11AAEC27D538 /* Pods-DreamLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +488,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DreamLog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "2Dream Log";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.DreamLog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isl.2dr84ml1g;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		744B283B2F7B0A6400F2A8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B32526EE9FBB337A2505FE3 /* Pods-DreamLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +526,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DreamLog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "2Dream Log";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.DreamLog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isl.2dr84ml1g;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
